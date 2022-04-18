@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="estilos/normalize.css">
-  <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+  
   <title>Login</title>
 </head>
 
@@ -27,16 +27,16 @@
           <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="login.html">Login </a>
+                <a class="nav-link active" href="login.php">Login </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="registro.html">Registro</a>
+                <a class="nav-link" href="registro.php">Registro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="recupera.html">recuperacion</a>
+                <a class="nav-link" href="recupera.php">recuperacion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">nosotros</a>
+                <a class="nav-link" href="nosotros.php">nosotros</a>
               </li>
             </ul>
           </div>
@@ -46,4 +46,3 @@
   </div><!-- Contenedor -->
 </body>
 </html>
-?>
