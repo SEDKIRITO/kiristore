@@ -3,7 +3,9 @@ header{
 }
 body{
  margin: 0;
- padding: 0;
+ padding: 0; 
+ background-color: #ffffff;
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='60' height='240'/%3E%3C/g%3E%3C/svg%3E");
 }
 .contenedor_menu{
   height: 70%;
@@ -54,53 +56,20 @@ body{
 }
 .contenedor_admin h3{
  text-align: center;
- color: #fff;
+ color: #000;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 35px;
  padding: 30px;
 }
 .contenedor_admin .registro {
   padding-left: 150px;
+  margin-bottom: 10px;
 }
-.contenedor_admin .registro {
-  color: red;
-}
-
- /*TABLA*/
- .tabla {
-  padding: 20px;
-}
-
-caption {
-  color: rgb(171, 228, 17);
-  font-family: Arial, Helvetica, sans-serif ;
-  font-size: 55px;
-  line-height: 10px;
-}
-
-table,th,td {
-  border: 2px solid rgb(55, 93, 165);
-  border-collapse: collapse;
-  padding: 5px;
-}
-
-td {
+.contenedor_admin .agregar img,p{
+  width: 100px;
+  margin-bottom: 30px;
+  margin-left: 140px;
   text-align: center;
 }
 
-th{
-    color: rgb(142, 143, 199);
-    background-color: rgba(214, 126, 10, 0.863);
-}
 
-/*RENGLONES PARES*/
-tr:nth-child(even){
-    color: rgb(61, 9, 121);
-    background-color: gray;
-}
-
-/*RENGLONES IMPARES*/
-tr:nth-child(odd){
-    color: yellow;
-    background-color: red;
-}
