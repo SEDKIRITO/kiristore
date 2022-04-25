@@ -69,3 +69,6 @@
 </body>
 
 </html>
+<?php
+  include("pie.php");
+?>

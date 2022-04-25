@@ -16,8 +16,8 @@
 
       <form id="forma" name="forma" action="validar.php" method="post">
         <div class="elemento">
-          <label for="nombre">nombre</label>
-          <input type="text" id="nombre" name="usuario" required>
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="correo" required>
         </div>
         <div class="elemento">
           <label for="password">Contraseña</label>
@@ -37,3 +37,7 @@
 </body>
 
 </html>
+
+<?php
+  include("pie.php");
+?>

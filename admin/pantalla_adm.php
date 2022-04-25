@@ -1,34 +1,19 @@
 <?php
 
-include ('class/classbd.php'); 
-include ('cabecera.php');
+include ('../class/classbd.php'); 
+include ('cabecera_adm.php');
 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilos/estilos.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-  <title>Administrador</title>
-</head>
-
 <body>
   <div class="contenedor_admin">
+
     <div class="titulo">
       <h3>Usuarios registrados</h3>
     </div>
+
     <div class="agregar">
-      <div class="junto">
         <p>Agragar nuevo usuario</p>
-        <a href="registro.php"><img src="imagenes/add.png" alt="Agragar"></a>
-      </div>
+        <a href="../admin/nuevo_usuario.php"><img src="../imagenes/add.png" alt="Agragar"></a>
     </div>
 
     <div class="tabla_usuarios">
@@ -88,10 +73,10 @@ include ('cabecera.php');
                 <?php echo $mostrar['id_tipo']; ?>
               </td>
               <td>
-                <a href="#"><img src="imagenes/editar.png" alt="editar"></a>
+                <a href="admin/actualizar.php"><img src="../imagenes/editar.png" alt="editar"></a>
               </td>
               <td>
-                <a href="#"><img src="imagenes/eliminar.png" alt="eliminar"></a>
+                <a href="admin/eliminar.php"><img src="../imagenes/eliminar.png" alt="eliminar"></a>
               </td>
             </tr>
             <?php 
@@ -99,11 +84,9 @@ include ('cabecera.php');
           ?>
           </tbody>
         </table>
-      </div>
-      <!--tabla-->
+      </div> <!--tabla-->
 
-    </div>
-    <!--Contenedor_admin-->
+    </div><!--Contenedor_admin-->
 </body>
 
 </html>
